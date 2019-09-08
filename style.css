@@ -12,28 +12,33 @@ header {
   text-align: center;
 }
 
-nav > a {
-  padding-right: 10px;
-  background-color: gray;
+img {
+  display: block;
+  margin: 0 auto;
 }
 
+nav a {
+  padding-right: 10px;
+  background-color: gray;
+  margin: 0 auto;
+}
+
+nav,
 figcaption {
   font-size: 12px;
   text-align: center;
 }
 
-#featured-property > p {
+#featured-property p {
   text-align: center;
   width: 800px;
+  margin: 0 auto;
 }
 
-#details > div {
+#details div {
   display: block;
-}
-
-#details > div {
   float: left;
-  background-color: green;
+  background-color: red;
   text-align: center;
   width: 25%;
 }
